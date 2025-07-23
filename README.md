@@ -83,3 +83,42 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License.
+
+## Setup
+
+1. Clone the repo:
+   ```
+   git clone https://github.com/obapluto-ob/resume-generator-.git
+   ```
+
+2. Install dependencies:
+   ```
+   cd client
+   npm install
+   cd ../server
+   npm install
+   ```
+
+3. Start backend:
+   ```
+   cd server
+   npm start
+   ```
+
+4. Start frontend:
+   ```
+   cd client
+   npm run dev
+   ```
+
+## Contributing
+
+- Fork the repo
+- Create a new branch
+- Make your changes
+- Submit a pull request
+
+## Hosting
+
+- **Frontend:** Deploy `client` folder to [Vercel](https://vercel.com/) or [Netlify](https://netlify.com/)
+- **Backend:** Deploy `server` folder to [Render](https://render.com/) or [Railway](https://railway.app/)
