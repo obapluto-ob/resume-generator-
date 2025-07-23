@@ -1,0 +1,290 @@
+.homeRoot {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.heroSection {
+  padding: 60px 0 40px 0;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(120deg, #2563eb 0%, #7c3aed 100%);
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+}
+
+.heroTitle {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
+.gradientText {
+  background: linear-gradient(90deg, #f59e0b, #8b5cf6, #06b6d4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroTagline {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: #e0e7ff;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  margin-bottom: 28px;
+  color: #cbd5e1;
+}
+
+.heroButtonRow {
+  margin-top: 28px;
+}
+
+.heroButton {
+  background: linear-gradient(90deg, #2563eb 60%, #06b6d4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 36px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  transition: background 0.2s, transform 0.2s;
+}
+.heroButton:hover {
+  background: linear-gradient(90deg, #1d4ed8 60%, #0ea5e9 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.sectionContainer {
+  padding: 48px 0;
+  background: #f8fafc;
+}
+
+.featuresTitle {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 36px;
+  color: #1e293b;
+  letter-spacing: -0.5px;
+}
+
+.featuresGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.featureCard {
+  background: #fff;
+  border: 2px solid #2563eb;
+  border-radius: 16px;
+  padding: 28px 22px;
+  width: 320px;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.featureCard:hover {
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+  border-color: #8b5cf6;
+}
+
+.featureCardTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #2563eb;
+}
+
+.featureCardDesc {
+  font-size: 1.05rem;
+  margin-bottom: 14px;
+  color: #334155;
+}
+
+.featureCapabilities {
+  margin-top: 10px;
+}
+
+.featureCapability {
+  background: #dbeafe;
+  color: #2563eb;
+  border-radius: 8px;
+  padding: 5px 14px;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  display: inline-block;
+  margin-right: 8px;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(44, 62, 80, 0.04);
+}
+
+/* Add some tweaks for stats and pricing sections if you use them */
+.statsGrid {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.statsCard {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.06);
+  padding: 24px 32px;
+  text-align: center;
+  min-width: 160px;
+}
+
+.statsNumber {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.statsLabel {
+  font-size: 1.05rem;
+  color: #334155;
+  font-weight: 500;
+}
+
+/* Pricing Section Example */
+.pricingSection {
+  background: #f1f5f9;
+  padding: 48px 0;
+}
+
+.pricingTitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #1e293b;
+}
+
+.pricingCards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pricingCard {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.06);
+  padding: 32px 28px;
+  min-width: 260px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pricingCardPro {
+  border: 2px solid #8b5cf6;
+}
+
+.pricingHeader {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #2563eb;
+}
+
+.pricingPlan {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin-right: 8px;
+}
+
+.pricingFree {
+  color: #22c55e;
+  font-weight: 700;
+}
+
+.pricingForever {
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+.pricingAmount {
+  color: #8b5cf6;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-left: 8px;
+}
+
+.pricingAmountSmall {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-left: 8px;
+}
+
+.popularBadge {
+  background: #8b5cf6;
+  color: #fff;
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 0.85rem;
+  margin-left: 8px;
+}
+
+.pricingFeatures {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px 0;
+}
+
+.check {
+  color: #22c55e;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.star {
+  color: #f59e0b;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.newBadge {
+  background: #f59e0b;
+  color: #fff;
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 0.85rem;
+  margin-left: 8px;
+}
+
+.pricingAction, .pricingActionPro {
+  background: linear-gradient(90deg, #2563eb 60%, #06b6d4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  transition: background 0.2s, transform 0.2s;
+}
+.pricingActionPro {
+  background: linear-gradient(90deg, #8b5cf6 60%, #f59e0b 100%);
+}
+.pricingAction:hover, .pricingActionPro:hover {
+  background: linear-gradient(90deg, #1d4ed8 60%, #0ea5e9 100%);
+  transform: translateY(-2px) scale(1.04);
+}

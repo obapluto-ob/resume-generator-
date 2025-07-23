@@ -1,0 +1,41 @@
+/* Help.css - Compact, compatible styles for help section */
+
+.help-container {
+    max-width: 600px;
+    margin: 24px auto;
+    padding: 16px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    font-family: Arial, sans-serif;
+}
+
+.help-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.help-list {
+    list-style: disc inside;
+    margin: 0 0 12px 0;
+    padding: 0;
+}
+
+.help-list li {
+    margin-bottom: 8px;
+    color: #444;
+    font-size: 1rem;
+}
+
+.help-link {
+    color: #0078d4;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.help-link:hover {
+    color: #005a9e;
+}

@@ -1,0 +1,161 @@
+/* Settings.css */
+
+.settings-page-container {
+  background: #f8fafc;
+  min-height: 100vh;
+  padding: 48px 0;
+}
+
+.settings-form {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(37,99,235,0.08);
+  padding: 32px 24px;
+  max-width: 480px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.settings-form h3 {
+  color: #2563eb;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+.settings-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.settings-form label {
+  font-weight: 500;
+  color: #334155;
+  margin-bottom: 2px;
+}
+
+.settings-form input[type="text"],
+.settings-form input[type="email"],
+.settings-form input[type="password"],
+.settings-form select,
+.settings-form textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 1rem;
+  background: #f8fafc;
+  color: #1e293b;
+  resize: none;
+}
+
+.settings-form select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 1rem;
+  background: #f8fafc;
+  color: #1e293b;
+  margin-bottom: 4px;
+}
+
+.settings-form textarea {
+  min-height: 60px;
+  max-height: 120px;
+}
+
+.settings-form button,
+.settings-password button,
+.delete-account-btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.settings-form button[type="button"] {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.settings-form button:hover,
+.settings-password button:hover,
+.settings-form button[type="button"]:hover {
+  background: #1746a2;
+}
+
+.delete-account-btn {
+  background: #ef4444;
+}
+
+.delete-account-btn:hover {
+  background: #dc2626;
+}
+
+.settings-password {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(37,99,235,0.08);
+  padding: 24px;
+  max-width: 480px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.settings-message,
+.settings-success {
+  margin-top: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2563eb;
+}
+
+@media (max-width: 600px) {
+  .settings-form,
+  .settings-password {
+    padding: 18px 8px;
+    max-width: 98vw;
+  }
+}
+
+/* Add to index.css or App.css */
+body.dark-theme {
+  background: #18181b;
+  color: #f3f4f6;
+}
+
+body.dark-theme .settings-form,
+body.dark-theme .settings-password {
+  background: #23232a;
+  color: #f3f4f6;
+}
+
+body.dark-theme select,
+body.dark-theme input,
+body.dark-theme textarea {
+  background: #23232a;
+  color: #f3f4f6;
+  border: 1px solid #334155;
+}
